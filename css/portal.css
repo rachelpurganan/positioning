@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 html {
-    background-color: #A7D7C5;
+    background-color: #7F5539;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -21,11 +21,12 @@ h1 {
     margin: auto;
     background: #fff;
     line-height: 2.5em;
-    font-family: 'Courgette', cursive;
+    font-family:'Perpetua Titling MT';
+    font-weight:bold
 }
 
 main.wrapper {
-    background-color: white;
+    background-color: #e6ccb2;
     overflow: auto;
 }
 
@@ -40,13 +41,13 @@ h2,h3 {
 }
 
 a {
-    color:#5C8D89;
+    color:#9C6644;
     text-decoration: none;
 }
 
 a:hover {
-    color: #D3F6D1;
-    background-color: #5C8D89;
+    color: #DDB892;
+    background-color: #7F5539;
     text-decoration: none;
 }
 
