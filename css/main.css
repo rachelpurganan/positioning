@@ -13,7 +13,7 @@ html {
 
 ::selection {
     color: #000; 
-    background: #ff0;
+    background: lightgray;
 }
 
 h1 {
@@ -56,6 +56,23 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+/* positioning styles start here */
+
+.text-align-center {
+    text-align: center;
+    background-color: #9C6644;
+}
+
+.margin-auto > div{
+    margin:auto;
+    width: 50%;
+    background-color: beige;
+    text-align: center;
+}
+
+/* positioning styles end here */
+
 
 /* Responsive rules */
 
