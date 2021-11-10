@@ -74,6 +74,72 @@ footer {
 /* positioning styles end here */
 
 
+/* responsive 2 column layout rules start here*/
+
+/* Allows box to take up full space, ignoring padding/margin */
+* {
+    box-sizing: border-box;
+  }
+ 
+/* Create two equal columns that float next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 300px; /* Can be removed. Only for demonstration */
+  }
+   /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
+/* responsive 2 column layout rules end here*/
+
+/* font awesome social media and flexbox starts here*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+   .fa:hover {
+      opacity: 0.7;
+  }
+   .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+   .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+   .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+   .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+   .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+ 
+ 
+/* font awesome social media and flexbox ends here*/
+
 /* Responsive rules */
 
 /* DESKTOP */
@@ -130,5 +196,10 @@ footer {
     picture.profile img {
         width: 100%;
     }
-    
+
+    /* columns take whole screen in mobile*/
+    .column {
+        width: 100%;
+      } 
+
 }
