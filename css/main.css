@@ -143,17 +143,19 @@ footer {
 
 /* flexible image rules start here */
 
+/*
 img.flexible{
     width: 100%;
 }
+*/
 
-.center-img{
-    margin: auto;
+.flexible img{
     width: 100%;
 }
 
-.center-img img{
-    text-align: center;
+.flexible {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* flexible image rules ends here */
